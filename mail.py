@@ -36,7 +36,7 @@ def main():
     print("_____________vAiBhAv______________")
     print(sys.argv[0])
     user='mahadevgopanpalli@gmail.com'
-    password='Vaibhav18vk'
+    password='Password'
     connected=is_connected()
     print(connected)
     if connected:
