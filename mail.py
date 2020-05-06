@@ -14,7 +14,7 @@ def MailSender(user,password):
     to=['vaibhavgopanpalli18@gmail.com']
     SUBJECT= "First Pdf through automail"
     TEXT="Love YOu Vk....."
-    Att=open("Marvellous Angular - New Features added in Angular 8.pdf","rb")
+    Att=open("-----Attatchment------","rb")
     message = 'Subject: {}\n\n{}\n\n{}'.format(SUBJECT, TEXT,Att)
 
     try:
